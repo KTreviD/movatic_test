@@ -1,5 +1,6 @@
 To initialize the project, simply open the project folder in your text editor and run the following command in the terminal:
 docker-compose up --build
+
 Project Description
 This project consists of a backend responsible for fetching and processing the necessary data and a frontend for visually interacting with the information.
 
