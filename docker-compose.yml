@@ -1,0 +1,23 @@
+version: "3"
+services:
+  frontend:
+    build:
+      context: ./frontend # Ruta al directorio del frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    networks:
+      - movatic_app-network
+
+  backend:
+    build:
+      context: ./backend # Ruta al directorio del backend
+    ports:
+      - "5000:5000"
+    networks:
+      - movatic_app-network
+
+networks:
+  movatic_app-network:
+    driver: bridge
