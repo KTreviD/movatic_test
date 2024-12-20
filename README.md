@@ -1,4 +1,5 @@
 To initialize the project, simply open the project folder in your text editor and run the following command in the terminal:
+
 docker-compose up --build
 
 Project Description
