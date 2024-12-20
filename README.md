@@ -9,7 +9,7 @@ In the backend, the main process involves:
 
 Data Retrieval:
 
-Data is collected from different sources or endpoints, including regions and stations.
+Data is collected from 3 different endpoints, including regions and stations.
 Data Processing:
 
 A new array is created where each region contains a list of stations that match its region_id.
